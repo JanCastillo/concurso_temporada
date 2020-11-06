@@ -140,7 +140,7 @@ select {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 100px) {
   #table-area thead {
     display: none;
   }
