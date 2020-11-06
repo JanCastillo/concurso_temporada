@@ -101,15 +101,11 @@ select {
 
 .hero h1 {
   margin-top: 100px;
-  font-size: 0.1rem;
-  animation: title 1.2s forwards linear;
+  font-size: 5rem;
 }
 
 .hero p {
   font-size: 2rem;
-  opacity: 0;
-  animation: subtitle 1.2s forwards linear;
-  animation-delay: 1.2s;
 }
 
 /* input placeholder color changes */
@@ -181,40 +177,4 @@ select {
     content: attr(data-th);
   }
 
-  .hero h1 {
-    animation: smaller-title 1.2s forwards linear;
-  }
-}
-
-/* keyframe animations which will be used to animate the title */
-@keyframes title {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    font-size: 5rem;
-    opacity: 1;
-  }
-}
-
-@keyframes smaller-title {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    font-size: 3rem;
-    opacity: 1;
-  }
-}
-
-@keyframes subtitle {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
 }
