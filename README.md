@@ -1,1 +1,1 @@
-# javascript_challenge.github.io
+These are the base files to run the contest results website
